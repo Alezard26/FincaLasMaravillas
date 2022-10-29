@@ -1,0 +1,53 @@
+/** ***********************************************************************************************************************
+ *                                                      PRINCIPALES                                                       *
+ *********************************************************************************************************************** **/
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (1, 'Administracion', 1, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (2, 'Actividades', 1, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (3, 'Inventarios', 1, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (4, 'Planillas', 1, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (5, 'Reportes', 1, 'Activo');
+
+/** ***********************************************************************************************************************
+ *                                                     ADMINISTRACION                                                     *
+ *********************************************************************************************************************** **/
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (6, 'Usuarios', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (7, 'Grupos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (8, 'Permisos Por Grupo', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (9, 'Empresas', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (10, 'Clientes Y Proveedores', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES (11, 'Cuadrillas', 0, 'Activo');
+
+/** ***********************************************************************************************************************
+ *                                                      ACTIVIDADES                                                       *
+ *********************************************************************************************************************** **/
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Administrar Actividades', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Registro De Actividades', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Actividades Registradas', 0, 'Activo');
+
+/** ***********************************************************************************************************************
+ *                                                      INVENTARIOS                                                       *
+ *********************************************************************************************************************** **/
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Categorias de Productos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Productos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Movimiento De Productos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Sub Productos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Movimiento De Sub Productos', 0, 'Activo');
+
+/** ***********************************************************************************************************************
+ *                                                       PLANILLAS                                                        *
+ *********************************************************************************************************************** **/
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Puestos de Trabajo', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Personal Fijo', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Personal Temporal', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Planilla Fija', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Planilla Temporal', 0, 'Activo');
+
+/** ***********************************************************************************************************************
+ *                                                        REPORTES                                                        *
+ *********************************************************************************************************************** **/
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Reporte Actividades', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Reporte Productos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Reporte Sub Productos', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Planillas Personal Fijo', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Planillas Personal Temporal', 0, 'Activo');
+INSERT INTO permisos (id_permiso, modulo, principal, estado) VALUES ('Ingresos Y Egresos', 0, 'Activo');
